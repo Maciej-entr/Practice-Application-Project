@@ -1,0 +1,80 @@
+.reviews-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 34vw;
+  }
+  
+  .reviews-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px; 
+    
+  }
+  
+  .review-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+    height: 27vw;
+    margin-top: 2vw;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .review-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .review-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .star {
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(201, 227, 249);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .slider-button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .slider-button.prev {
+    left: 30px;
+  }
+  
+  .slider-button.next {
+    right: 30px;
+  }
