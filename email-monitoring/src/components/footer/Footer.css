@@ -1,108 +1,152 @@
 .footer {
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-content-left .logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-content-left p {
+  margin: 10px 0;
+  color: #ababab;
+}
+
+.footer-social-icons img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+  margin-bottom: 10px;
+}
+
+.footer-content-center ul,
+.footer-content-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content-center ul li,
+.footer-content-right ul li {
+  margin: 5px 0;
+}
+
+.footer-content-center ul li a {
+  text-decoration: none;
+  color: #ababab;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.footer-content-center ul li a:hover {
+  transform: scale(1.05);
+}
+
+.footer-content-center ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: rgb(201, 227, 249);
+  transition: width 0.3s ease;
+}
+
+.footer-content-center ul li a:hover::after {
+  width: 100%;
+}
+
+.footer-content-right ul li {
+  font-size: 1rem;
+  color: #ababab;
+}
+
+.footer hr {
+  margin: 20px 0;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+h2 {
+  color: rgb(201, 227, 249);
+}
+
+.contact {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact:hover {
+  transform: scale(1.05);
+}
+
+.footer-social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-social-icons img {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
   .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
+      flex-direction: column;
+      align-items: center;
   }
-  
+
   .footer-content-left,
   .footer-content-center,
   .footer-content-right {
-    flex: 1;
-    margin: 0 10px;
+      margin: 10px 0;
   }
-  
+
   .footer-content-left .logo {
-    width: 150px;
-    margin-bottom: 10px;
+      width: 120px;
   }
-  
-  .footer-content-left p {
-    margin: 10px 0;
-    color: #ababab;
-  }
-  
-  .footer-social-icons img {
-    width: 30px;
-    margin: 0 5px;
-  }
-  
-  .footer-content-center h2,
-  .footer-content-right h2 {
-    margin-bottom: 10px;
-  }
-  
-  .footer-content-center ul,
-  .footer-content-right ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-content-center ul li,
-  .footer-content-right ul li {
-    margin: 5px 0;
-  }
-  
+
   .footer-content-center ul li a {
-    text-decoration: none;
-    color: #ababab;
-    position: relative;
-    transition: all 0.3s ease;
+      font-size: 0.9rem;
   }
-  
-  .footer-content-center ul li a:hover {
-    transform: scale(1.05);
-  }
-  
-  .footer-content-center ul li a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -4px;
-    left: 0;
-    background-color: rgb(201, 227, 249);
-    transition: width 0.3s ease;
-  }
-  
-  .footer-content-center ul li a:hover::after {
-    width: 100%;
-  }
-  
+
   .footer-content-right ul li {
-    font-size: 1rem;
-    color: #ababab;
+      font-size: 0.9rem;
   }
-  
-  .footer hr {
-    margin: 20px 0;
-  }
-  
-  .footer-copyright {
-    font-size: 0.9rem;
-    color: #777;
-  }
-  h2{
-    color:rgb(201, 227, 249);
-  }
-  .contact{
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-  .contact:hover{
-    transform: scale(1.05);
-    
-  }
-  .footer-social-icons img:hover {
-    transform: scale(1.1);
 }
-.footer-social-icons img{
-    transition: all 0.3s ease;
-    cursor: pointer;
+
+@media (max-width: 480px) {
+  .footer-content-left .logo {
+      width: 100px;
+  }
+
+  .footer-content-center ul li a {
+      font-size: 0.8rem;
+  }
+
+  .footer-content-right ul li {
+      font-size: 0.8rem;
+  }
 }

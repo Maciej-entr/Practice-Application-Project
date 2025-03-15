@@ -1,4 +1,4 @@
-.login-popup{
+.login-popup {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -6,9 +6,10 @@
     background-color: #00000090;
     display: grid;
 }
-.login-popup-container{
+
+.login-popup-container {
     place-self: center;
-    width: max(23vw,330px);
+    width: max(23vw, 330px);
     color: #808080;
     background-color: white;
     display: flex;
@@ -19,30 +20,33 @@
     font-size: 14px;
     animation: fadeIn 0.5s;
 }
-.login-popup-title{
+
+.login-popup-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
-
 }
-.login-popup-title img{
+
+.login-popup-title img {
     width: 16px;
     cursor: pointer;
 }
-.login-popup-input{
+
+.login-popup-input {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.login-popup-input input{
-    border: 1px solid #c9c9c9;
-   outline: none;
-   padding: 10px;
-   border-radius: 4px;
 
+.login-popup-input input {
+    border: 1px solid #c9c9c9;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
 }
-.login-popup-container button{
+
+.login-popup-container button {
     background-color: white;
     color: black;
     border: none;
@@ -53,23 +57,50 @@
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.login-popup-container button:hover{
+
+.login-popup-container button:hover {
     background-color: rgb(201, 227, 249);
     color: white;
     transform: scale(1.1);
-
 }
-.login-popup-condition{
+
+.login-popup-condition {
     display: flex;
     align-items: start;
     gap: 8px;
     margin-top: -15px;
 }
-.login-popup-condition input{
+
+.login-popup-condition input {
     margin-top: 18px;
 }
-.login-popup p span{
-    color:rgb(201, 227, 249) ;
+
+.login-popup p span {
+    color: rgb(201, 227, 249);
     font-weight: 500;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .login-popup-container {
+        width: max(30vw, 280px);
+        padding: 20px 25px;
+    }
+
+    .login-popup-container button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-popup-container {
+        width: max(40vw, 240px);
+        padding: 15px 20px;
+    }
+
+    .login-popup-container button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
 }
