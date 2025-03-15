@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d283dd38.css",
+    "main.js": "/static/js/main.21c71a00.js",
+    "static/js/453.d81182a6.chunk.js": "/static/js/453.d81182a6.chunk.js",
+    "static/media/contactBackground.jpg": "/static/media/contactBackground.26e61d455cb09c5a7201.jpg",
+    "static/media/evan.jpg": "/static/media/evan.f162027c7e7dbcbdda7a.jpg",
+    "static/media/michalea.jpg": "/static/media/michalea.5afdda3aa37f42ad7982.jpg",
+    "static/media/sarah.jpg": "/static/media/sarah.ac8ea0219d197cae1944.jpg",
+    "static/media/image2.jpg": "/static/media/image2.f31da90e9e185d82e6a4.jpg",
+    "static/media/thoma.jpg": "/static/media/thoma.d0baf1291ecb71373331.jpg",
+    "static/media/john.jpg": "/static/media/john.21c2f2a35c2ec98e4390.jpg",
+    "static/media/image1.jpg": "/static/media/image1.4fdcc928edc7e78a056f.jpg",
+    "static/media/Download.jpg": "/static/media/Download.a94c890fcec86ab22523.jpg",
+    "static/media/jane.jpg": "/static/media/jane.74c09846fed6d23469e8.jpg",
+    "static/media/header2.jpg": "/static/media/header2.ea8ad37718df9598e118.jpg",
+    "static/media/louis.jpg": "/static/media/louis.69ef40d02a2be6b96bfb.jpg",
+    "static/media/github.png": "/static/media/github.553c66159c5672f25df6.png",
+    "static/media/logo.png": "/static/media/logo.46ae23dd1f5f4e47b0be.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/Email-Filtering-Program.zip": "/static/media/Email-Filtering-Program.911b430e9d19cb65e41c.zip",
+    "index.html": "/index.html",
+    "main.d283dd38.css.map": "/static/css/main.d283dd38.css.map",
+    "main.21c71a00.js.map": "/static/js/main.21c71a00.js.map",
+    "453.d81182a6.chunk.js.map": "/static/js/453.d81182a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d283dd38.css",
+    "static/js/main.21c71a00.js"
+  ]
+}
